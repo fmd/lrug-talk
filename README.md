@@ -5,7 +5,7 @@
 * Install the [docker toolbox](https://www.docker.com/products/docker-toolbox).
 * Clone this repository: `git clone git@github.com:/fmd/lrug-talk`.
 * Run `eval $(docker-machine env default)` to bootstrap your Docker environment.
-* Add your `DOCKER_HOST` IP to your `/etc/hosts` file. My entry looks like this:
+* Run `echo $DOCKER_HOST` and copy the IP to your `/etc/hosts` file. My entry looks like this:
 
 ```
 192.168.99.100 docker
