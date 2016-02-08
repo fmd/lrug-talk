@@ -12,5 +12,5 @@
 ```
 
 * `cd` into the cloned directory (`cd lrug-talk`) and `docker-compose build`.
-* Create our database: `docker-compose run web --rm rake db:create`
+* Create our database: `docker-compose run --rm web rake db:create`
 * Run the app! `docker-compose up` and visit `docker:3000` in the browser.
